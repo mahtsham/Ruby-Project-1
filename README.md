@@ -9,7 +9,7 @@ There are following two methods in thhis repo.
 
 Clone this repository to your local machine. To do this, click on the green "Code" button at the top right of list of files and copy the link in the prompt. Then, run the following command in your terminal:
 
-    git clone <https://github.com/mahtsham/Ruby-Project-1.git>
+    git clone https://github.com/mahtsham/Ruby-Project-1.git
 
 This will create a folder called 'Ruby-Project-1' inside the directory you ran the command in.
 
