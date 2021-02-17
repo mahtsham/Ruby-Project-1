@@ -5,15 +5,11 @@ There are following two methods in thhis repo.
 1. bubble_sort: If we pass an unsorted array to this method, this will sort the array in increasing order.
 2. bubble_sort_by: If we pass aa array block to this method, this will sort the array by comparing blocks like if lenght of left is big and right is small then swap else check next. 
 
-## About this repository
-
-This repository is a complement to the Ruby course for The Odin Project. It contains a series of Ruby exercises alongside pre-written tests that will help guide the student towards a solution, providing a Test Driven Development experience.
-
 ## Cloning and installation
 
 Clone this repository to your local machine. To do this, click on the green "Code" button at the top right of list of files and copy the link in the prompt. Then, run the following command in your terminal:
 
-    git clone <link>
+    git clone <https://github.com/mahtsham/Ruby-Project-1.git>
 
 This will create a folder called 'Ruby-Project-1' inside the directory you ran the command in.
 
@@ -32,10 +28,6 @@ Verify that the installation was successful by simply running the following comm
     bundle exec rspec
 
 Which should print a few lines about not finding any examples. This is ok and means it's working!
-
-## Usage
-
-Each directory contains a read me with instructions for the exercises within them.
 
 ## Authors
 
