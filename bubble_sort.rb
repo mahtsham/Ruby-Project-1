@@ -18,10 +18,7 @@ end
 def bubble_sort_by(array)
   (0...array.length).each do |_i|
     (0...array.length).each do |i|
-      if i < array.length - 1 && yield(array[i], array[i + 1]).positive?
-        array[i], array[i + 1] = array[i + 1],
-array[i]
-      end
+      array[i], array[i + 1] = array[i + 1], array[i] if i < array.length - 1 && yield(array[i], array[i + 1]).positive?
     end
   end
   array
